@@ -12,7 +12,7 @@ eureka:
 security:
   user:
     name: user
-    password: password
+    password: 123
   oauth2:
     client:
       clientId: svca-service
