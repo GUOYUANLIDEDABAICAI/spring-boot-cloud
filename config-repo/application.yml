@@ -20,7 +20,7 @@ ribbon:
 
 spring:
   rabbitmq:
-    host: rabbitmq
+    host: http://139.199.197.45:15672/
   sleuth:
     sampler:
       percentage: 1
