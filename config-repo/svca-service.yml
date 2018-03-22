@@ -16,7 +16,7 @@ security:
   oauth2:
     client:
       clientId: svca-service
-      clientSecret: ${security.user.password}
-      accessTokenUri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/oauth/token
+      clientSecret: password
+      accessTokenUri: http://localhost:8060/aaa/oauth/token
       grant-type: client_credentials
       scope: server
