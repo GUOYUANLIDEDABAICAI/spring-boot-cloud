@@ -6,8 +6,8 @@ msg: Hello
 eureka:
   instance:
     metadata-map:
-      user.name: ${security.user.name}
-      user.password: ${security.user.password}
+      user.name: user
+      user.password: 123
 
 security:
   user:
@@ -16,7 +16,7 @@ security:
   oauth2:
     client:
       clientId: svcb-service
-      clientSecret: ${security.user.password}
-      accessTokenUri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/oauth/token
+      clientSecret: password
+      accessTokenUri: http://localhost:8060/aaa/oauth/token
       grant-type: client_credentials
       scope: server
