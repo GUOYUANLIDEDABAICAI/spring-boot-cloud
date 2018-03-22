@@ -16,7 +16,7 @@ security:
   oauth2:
     client:
       clientId: svcb-service
-      clientSecret: password
+      clientSecret: 123
       accessTokenUri: http://localhost:8060/aaa/oauth/token
       grant-type: client_credentials
       scope: server
