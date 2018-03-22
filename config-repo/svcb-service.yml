@@ -6,8 +6,8 @@ msg: Hello
 eureka:
   instance:
     metadata-map:
-      user.name: user
-      user.password: 123
+      user.name: dave
+      user.password: secret
 
 security:
   user:
