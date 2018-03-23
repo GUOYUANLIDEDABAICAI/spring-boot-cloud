@@ -20,5 +20,3 @@ security:
       accessTokenUri: http://localhost:8060/aaa/oauth/token
       grant-type: client_credentials
       scope: server
-    resource:
-      userInfoUri: http://localhost:8060/aaa/current
