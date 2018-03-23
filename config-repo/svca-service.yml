@@ -21,4 +21,4 @@ security:
       grant-type: client_credentials
       scope: server
     resource:
-      userInfoUri: http://localhost:8060/current
+      userInfoUri: http://localhost:8060/aaa/current
