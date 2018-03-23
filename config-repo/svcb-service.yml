@@ -11,8 +11,8 @@ eureka:
 
 security:
   user:
-    name: user
-    password: 123
+    name: dave
+    password: secret
   oauth2:
     client:
       clientId: svcb-service
