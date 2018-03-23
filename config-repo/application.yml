@@ -40,4 +40,4 @@ authserver:
 security:
   oauth2:
     resource:
-      user-info-uri: http://localhost:8060/aaa/current
+      user-info-uri: http://localhost:8060/uaa/current
